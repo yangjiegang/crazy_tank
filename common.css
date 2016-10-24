@@ -1,0 +1,113 @@
+.panel {
+    border: solid 3px grey;
+    border-radius: 10px;
+    width: 450px;
+    height: 470px;
+    padding: 10px;
+    margin: 50px auto;
+}
+
+.map {
+    background: gray;
+    border: 1px solid grey;
+    position: relative;
+    margin: 10px auto;
+    width: 416px;
+    height: 416px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.rock {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: silver;
+    z-index: 2;
+}
+
+.stick{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: brown;
+    z-index: 2;
+}
+
+.grass{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: green;
+    z-index: 4;
+}
+
+.bomb{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: lightblue;
+    z-index:2;  
+}
+
+.enegy{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: orange;
+    z-index:2;  
+}
+
+.tank {
+    background-image: url("tank.gif");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    z-index: 3;
+}
+
+.enemy {
+    background-image: url("enemy.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    z-index: 3;
+    /*        display: none;*/
+}
+
+.bullet {
+    background-image: url('bullet.gif');
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    z-index: 4;
+    background-repeat: no-repeat;
+}
+
+.Boom {
+    background-image: url('boom.png');
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    z-index: 4;
+}
+
+#scores {
+    width: 400px;
+    height: 20px;
+    margin: 5px 20px 5px 20px;
+    z-index: 5;
+    color: red;
+    font: bold 16px/1.5em arial;
+    text-align: center;
+    border: solid 2px grey;
+    border-radius: 5px;
+}
+
+#scores>span{
+    margin:0 10px;
+}
